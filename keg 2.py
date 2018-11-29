@@ -1,18 +1,12 @@
-#Naufal Randi Aldiansyah
-#L200180142
+#keg 2
 
-n = 'Naufal Randi Aldiansyah'
-a = 'perum. bogor asri blok i8 no 3'
-e = 'naufalrandialdiansyah@gmail.com'
-p = 'mahasiswa'
-g = 'laki - laki'
-m = 'universitas muhammadiyah surakarta'
-j = 'informatika'
-t = '2018'
-s = '1'
-h = '083112311399'
-t = '27/02/2000'
+berkas = open("L200180142", "w")
+berkas.write("Naufal Randi Aldiansyah. ""\n")
+berkas.write("Bogor, ")
+berkas.write("02/27/2000. ""\n")
+berkas.write("L200180142. ")
+berkas.close()
 
-print [n, t, n[:7] + n[7] + n[12] + n[13]]
-print ['username:', n[0] + t[:2] + t[6:]]
-print ['password', n[:3] + '931']
+berkas = open("L200180142", "r")
+print berkas.readlines()
+berkas.close()
